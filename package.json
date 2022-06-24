@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:production": "NODE_ENV=production docker build -t api . && docker tag api:latest 139824471237.dkr.ecr.ap-south-1.amazonaws.com/api:latest && docker push 139824471237.dkr.ecr.ap-south-1.amazonaws.com/api:latest"
+    "build:production": "NODE_ENV=production docker build -t api . && docker tag api:latest 139824471237.dkr.ecr.ap-south-1.amazonaws.com/api:latest && docker push 139824471237.dkr.ecr.ap-south-1.amazonaws.com/api:latest",
+    "start": "node server.js"
   },
   "author": "shekarsiri",
   "license": "ISC",
