@@ -22,6 +22,7 @@ var allowedDomains = [
 	"http://localhost:3000",
 	"http://localhost:8080",
 	"http://chaalk.teklogiks.com",
+	"http://chaalk.herokuapp.com/"
 ];
 
 var corsOptions = {
